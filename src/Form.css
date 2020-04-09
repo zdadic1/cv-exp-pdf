@@ -1,0 +1,109 @@
+.content {
+  min-height: 600px;
+  border: rgb(255, 255, 255) 1px solid;
+}
+
+.Form {
+  display: flex;
+  margin: auto auto auto auto;
+  width: 1000px;
+  min-height: 1400px;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.column-left {
+  margin: 0;
+  background-color: rgb(233, 233, 233);
+  padding: 50px;
+  float: left;
+  width: 35%;
+}
+
+.profile {
+  padding-top: 50px;
+  text-align: center;
+  color: black;
+}
+.slika {
+  justify-content: center;
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  background-color: inherit;
+
+  color: rgb(61, 61, 61);
+}
+
+.name-input {
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+}
+
+.occupation-input {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.summary-input {
+  word-wrap: break-word;
+  width: 100%;
+  font-style: italic;
+  font-size: 14px;
+  height: 200px;
+  margin: 0;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.name-input::placeholder {
+  color: rgb(153, 153, 153);
+  text-align: center;
+}
+
+.address-input {
+  display: inline;
+}
+
+.column-right {
+  padding: 40px;
+  float: right;
+  width: 65%;
+  background-color: white;
+}
+
+.right-side {
+  color: black;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr {
+  color: rgb(87, 87, 87);
+}
+
+.pdf-container {
+  padding: 10px 120px 120px 120px;
+}
+
+.button-export {
+  left: 45%;
+  position: relative;
+  padding: 80px 20px 25px 20px;
+  font-size: 20px;
+  background-color: #1d87dd00;
+  border-radius: 50px;
+  border: none;
+}
