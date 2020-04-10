@@ -6,9 +6,10 @@
 .Form {
   background-color: white;
   display: flex;
-  margin: auto auto auto auto;
+  margin: auto auto 100px auto;
   width: 1000px;
   min-height: 1400px;
+  font-family: "Trebuchet MS";
 
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
@@ -97,7 +98,7 @@ hr {
 }
 
 .pdf-container {
-  padding: 10px 120px 120px 120px;
+  padding: 10px 0px 120px 0x;
 }
 
 .button-export {
@@ -105,9 +106,10 @@ hr {
   cursor: hand;
   left: 45%;
   position: relative;
-  padding: 80px 20px 25px 20px;
+  padding: 100px 20px 25px 20px;
   font-size: 20px;
   background-color: #1d87dd00;
   border-radius: 50px;
   border: none;
+  outline: none;
 }

@@ -18,7 +18,7 @@ export default function Form() {
         <input
           type="text"
           className="summary-input"
-          placeholder="Write a short summary about yourself"
+          placeholder="Write a short summary about yourself..."
         ></input>
 
         <input
@@ -41,14 +41,14 @@ export default function Form() {
         <ColoredLine />
         <input
           className="summary-input"
-          placeholder="Write a short summary about yourself"
+          placeholder="Put your skillset here..."
         ></input>
 
         <div className="profile">E D U C A T I O N</div>
         <ColoredLine />
         <input
           className="summary-input"
-          placeholder="Write a short summary about yourself"
+          placeholder="Education info..."
         ></input>
       </div>
       <div className="column-right">
@@ -56,19 +56,20 @@ export default function Form() {
         <ColoredLine />
         <input
           className="summary-input"
-          placeholder="Write a short summary about yourself"
+          placeholder="Write about your most notable projects..."
         ></input>
+        <input className="summary-input"></input>
         <div className="right-side">L A N G U A G E S</div>
         <ColoredLine />
         <input
           className="summary-input"
-          placeholder="Write a short summary about yourself"
+          placeholder="What languages do you speak and how proficient are you?"
         ></input>
         <div className="right-side">R E F E R E N C E S</div>
         <ColoredLine />
         <input
           className="summary-input"
-          placeholder="Write a short summary about yourself"
+          placeholder="State your references here..."
         ></input>
       </div>
       {/*       </div>

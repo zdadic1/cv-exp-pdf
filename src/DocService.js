@@ -7,7 +7,7 @@ class DocService {
       color: "black",
       paperSize: "auto",
       fileName: "CV.pdf",
-      margin: 3,
+      margin: 0,
     });
   };
 }
