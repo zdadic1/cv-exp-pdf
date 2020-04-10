@@ -8,7 +8,7 @@ import Export from "./Export";
 export default function App() {
   return (
     <BrowserRouter forceRefresh={true}>
-      <div>
+      <div className="whole-page">
         <header>
           <Link to="/">
             {" "}

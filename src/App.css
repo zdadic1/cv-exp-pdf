@@ -83,6 +83,10 @@ a:link {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
+.whole-page {
+  min-height: 100vh;
+}
+
 footer {
   height: 47px;
   width: 100%;

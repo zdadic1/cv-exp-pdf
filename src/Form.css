@@ -4,10 +4,12 @@
 }
 
 .Form {
+  background-color: white;
   display: flex;
   margin: auto auto auto auto;
   width: 1000px;
   min-height: 1400px;
+
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
@@ -99,6 +101,8 @@ hr {
 }
 
 .button-export {
+  cursor: pointer;
+  cursor: hand;
   left: 45%;
   position: relative;
   padding: 80px 20px 25px 20px;
