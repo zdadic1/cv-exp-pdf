@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(255, 255, 255);
   background-image: url("./tile.png");
   background-repeat: repeat;
 }
@@ -11,9 +10,8 @@ div#root {
 header {
   position: fixed;
   height: 60px;
-  background-color: #2195f3d8;
+  background-color: #1579cad8;
   width: 100%;
-
   -webkit-box-shadow: -2px -89px 100px 57px rgba(0, 0, 0, 0.87);
   -moz-box-shadow: -2px -89px 100px 57px rgba(0, 0, 0, 0.87);
   box-shadow: -2px -89px 100px 57px rgba(0, 0, 0, 0.87);
@@ -62,9 +60,11 @@ a:link {
 }
 
 .home-button {
+  outline: none;
+  cursor: pointer;
   background-color: #1d87dd;
   border: 0;
-  border-radius: 10px;
+  border-radius: 7px;
   padding: 23px;
   font-weight: 400;
   color: white;
@@ -75,7 +75,6 @@ a:link {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
